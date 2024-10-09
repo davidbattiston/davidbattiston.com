@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-net server.ts"
+  },
+  "imports": {
+    "hono": "jsr:@hono/hono@^4.6.3"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+  }
+}
