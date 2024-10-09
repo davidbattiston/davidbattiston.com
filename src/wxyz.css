@@ -21,8 +21,21 @@ body {
 html {
     height: -webkit-fill-available;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 * {
     box-sizing: border-box;
+}
+
+main {
+    margin: 40px;
+}
+
+p,
+span,
+a,
+ul,
+li {
+    list-style-type: none;
 }
